@@ -29,7 +29,7 @@
 import os
 os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
 import streamlit as st  
-import tensorflow as tf # TensorFlow is required for Keras to work
+import tensorflow as tf # type: ignore # TensorFlow is required for Keras to work
 from PIL import Image
 import numpy as np
 #import cv2
